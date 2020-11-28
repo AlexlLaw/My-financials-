@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="466c400b-2ab7-4835-883f-48310dd2372a" name="Default Changelist" comment="" />
+    <list default="true" id="466c400b-2ab7-4835-883f-48310dd2372a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/service/DispesasService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/DispesasServiceInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DispesasController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DispesasController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Dispesas.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Dispesas.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +34,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -74,6 +101,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1gFSh3YvKyQ5pFF11n1uYafxdur" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -104,21 +132,43 @@
       <workItem from="1606432045392" duration="1804000" />
       <workItem from="1606433883695" duration="1793000" />
       <workItem from="1606435700603" duration="1554000" />
+      <workItem from="1606528473947" duration="1824000" />
+      <workItem from="1606530338182" duration="830000" />
+      <workItem from="1606532152980" duration="1798000" />
+      <workItem from="1606533970400" duration="1790000" />
+      <workItem from="1606535782415" duration="1790000" />
+      <workItem from="1606537590720" duration="898000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="1041" y="294" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606538382768">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state x="1041" y="294" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/62.0.2498.1080/-1858.0.1858.1080@62.0.2498.1080" timestamp="1606538382768" />
     <state x="1091" y="294" key="FileChooserDialogImpl" timestamp="1599612723616">
       <screen x="62" y="0" width="2498" height="1080" />
     </state>
     <state x="1091" y="294" key="FileChooserDialogImpl/-1858.0.1858.1080/62.0.2498.1080@62.0.2498.1080" timestamp="1599612723616" />
-    <state x="1084" y="262" key="NewPhpClassDialog" timestamp="1606351954007">
+    <state x="1084" y="262" key="NewPhpClassDialog" timestamp="1606538269739">
       <screen x="62" y="0" width="2498" height="1080" />
     </state>
-    <state x="1084" y="262" key="NewPhpClassDialog/62.0.2498.1080/-1858.0.1858.1080@62.0.2498.1080" timestamp="1606351954007" />
+    <state x="1084" y="262" key="NewPhpClassDialog/62.0.2498.1080/-1858.0.1858.1080@62.0.2498.1080" timestamp="1606538269739" />
     <state x="195" y="184" key="SettingsEditor" timestamp="1606432308085">
       <screen x="62" y="0" width="2498" height="1080" />
     </state>

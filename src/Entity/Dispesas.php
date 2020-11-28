@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * @ORM\Entity(repositoryClass=DispesasRepository::class)
  */
-class Dispesas
+class Dispesas implements \JsonSerializable
 {
     /**
      * @ORM\Id()
@@ -105,5 +105,19 @@ class Dispesas
         $this->tempo = $tempo;
 
         return $this;
+    }
+
+    /**
+     * @inheritDoc
+     */
+    public function jsonSerialize()
+    {
+        return [
+            'id' => $this->getId(),
+            'nomeD' => $this->getNome(),
+            'data' => $this->getData(),
+            'valor' => $this->getValor(),
+            'tempo' => $this->getTempo()
+        ];
     }
 }
