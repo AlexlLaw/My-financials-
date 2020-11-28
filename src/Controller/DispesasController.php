@@ -19,26 +19,18 @@ use Symfony\Component\HttpFoundation\Response;
 class DispesasController extends AbstractController
 {
     /**
-     * @var EntityManagerInterface
-     */
-    private $entityManager;
-
-    /**
      * @var DispesasService
      */
     private $dispesaService;
 
     /**
      * DispesasController constructor.
-     * @param EntityManagerInterface $entityManager
      * @param DispesasService $dispesasService
      */
     public function __construct(
-        EntityManagerInterface $entityManager,
         DispesasService $dispesasService
     ) {
         $this->dispesaService = $dispesasService;
-        $this->entityManager = $entityManager;
     }
 
     /**
